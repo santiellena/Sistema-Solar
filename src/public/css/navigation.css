@@ -1,0 +1,28 @@
+.nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+}
+.navbar-brand{
+    font-size: 23px;
+}
+.slider{
+    width: 100%;
+    height: auto;
+}
+.slider-container img{
+    height: 80vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+
+@media (max-width: 720px){
+    .slider-container{
+        display: none;
+    }
+    .slider-container img{
+        display: none;
+    }
+}
